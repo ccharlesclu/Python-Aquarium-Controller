@@ -13,9 +13,6 @@ from RelayDevice import RelayDevice
 
 wavemaker = RelayDevice(5, False)
 topoff = RelayDevice(19, False)
-led = Dimmer.Dimmer(4)
-led2 = Dimmer.Dimmer(17)
-led3 = Dimmer.Dimmer(22)
 
 topoffOn = False
 wavemakerOn = False
